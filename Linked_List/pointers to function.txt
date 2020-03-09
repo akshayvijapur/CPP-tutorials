@@ -1,0 +1,25 @@
+void test(int **p){
+int j =10;
+*p = &j;
+std::cout<<**p<<"\n";
+}
+
+int main() {
+
+  
+
+    /*struct node* test = NULL ;
+
+    AddToLinkedList(test, 10);
+    std::cout<*test->data;*/
+
+    int *p;
+    
+    test(&p);
+
+    std::cout<<*p<<"\n";
+    std::cout<<p<<"\n";
+
+    std::cout<<"\n";
+    
+}
